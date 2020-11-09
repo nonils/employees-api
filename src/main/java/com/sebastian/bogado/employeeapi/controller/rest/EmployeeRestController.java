@@ -12,7 +12,7 @@ import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/v1/employee")
+@RequestMapping("/api/v1/employees")
 public class EmployeeRestController {
 	@Autowired
 	private ReadEmployeeInfoService employeeInfoService;
