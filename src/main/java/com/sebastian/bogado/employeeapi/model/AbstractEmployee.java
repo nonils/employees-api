@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 @Entity
 @DiscriminatorColumn(name="contract_type")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@Table(name="Employee")
+@Table(name="employee")
 @Data
 public abstract class AbstractEmployee {
 	@Id
